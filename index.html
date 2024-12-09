@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride Well</title>
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+   
+    
+  </head>
+  <body>
+    
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">
+        <i class="fas fa-car-side"></i>EXOTIC
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blog">blogs</a>
+      </nav>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="1300"
+        href="#"class="btn book" id="book">book now</a
+      >
+    </header>
+
+    <form action="" class="booking-form">
+      <fieldset>
+          <legend>Personal Details</legend>
+          <div class="pd">
+              <input type="text" class="input" placeholder="First Name" id="first-name" irequired>
+              <input type="text" class="input" placeholder="Last Name" id="last-name" required>
+              <input type="text" class="input" placeholder="Email" id="email" required>
+              <input type="text" class="input" placeholder="Phone Number" id="phone-number" required>
+          </div>
+
+      </fieldset>
+     
+      <fieldset class="sec">
+          <legend>Booking Details</legend> <div class="booking">
+              <input type="input" class="input" id="date" placeholder="Pick-up Date" required>
+              <input type="input" class="input" id="time" placeholder="Pick-up Time" required>
+              <input type="input" class="input" placeholder="Drop-off Date" id="date" required>
+              <input type="input" class="input" placeholder="Drop-off Time" id="time" required>
+              <input type="text" class="input" placeholder="Car Model" id="model" required>
+              <input type="number" class="input" placeholder="Number of Passengers" id="pass"  required>
+          </div>
+      </fieldset>
+     
+      
+      <button class="btn now" id="book-now">Book Now</button>
+
+    </form>
+
+    <section class="home" id="home">
+      <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150"> Car Addict</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">Goes for The best</h3>
+        <p data-aos="fade-up" data-aos-delay="450">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus quia illum quod perspiciatis harum in possimus? Totam
+          consequuntur officia quia?
+        </p>
+        <label data-aos="fade-up" data-aos-delay="600"  class="label"
+          >book now</label
+        >
+      </div>
+    </section>
+
+    
+
+    <section class="about" id="about">
+      <div class="img-container" data-aos="fade-right" data-aos-delay="300">
+        <!-- <img src="images/abt.jpeg" alt="" /> -->
+         <video loop autoplay src="/images/about-vid-2.mp4" id="vid"></video>
+      </div>
+
+      <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>Our History</span>
+        <h3>Everything you need to know</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit
+          repellat error deserunt nam aperiam odit libero quos provident.
+          Nostrum?
+        </p>
+        <button class="btn read-more-button" id="read-more"> read more</button>
+        <div class="dropdown-content">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, labore accusantium repellendus rerum laudantium eos dolorum laboriosam aperiam, itaque, error voluptate pariatur molestias voluptatibus. 
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quis!
+          </p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section
+      class="gallery"
+      id="gallery"
+      data-aos="fade-up"
+      data-aos-delay="150"
+    >
+      <div class="heading">
+        <span>Top Rated</span>
+        <h1>Most popular Vehicles</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-1.jpeg" alt="" />
+          <h3>BMW</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class="label">order now</label>
+        </div>
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-2.jpeg" alt="" />
+          <h3>mercedes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class="label">order now</label>
+          </div>
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-3.jpeg" alt="" />
+          <h3>Range Rover</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class="label">order now</label>
+        </div>
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-4.jpeg" alt="" />
+          <h3>porche</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class=" label">order now</label>
+        </div>
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-5.jpeg" alt="" />
+          <h3>Nisan X</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class="label">order now</label>
+        </div>
+        <div class="box">
+          <span class="price"> $500k - $2000k </span>
+          <img src="images/p-6.jpeg" alt="" />
+          <h3>ferrari</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <label  class="label">order now</label>
+        </div>
+      </div>
+    </section>
+
+ 
+
+    <section class="services" id="services">
+      <div class="heading">
+        <span>Why Choose Us?</span>
+        <h1>Like a Professional</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/des1" alt="" />
+          </div>
+          <div class="content">
+            <h3>BELTS AND ENGINE</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/des3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>BELTS AND ENGINE</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+          <div class="image">
+            <img src="images/des4.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>BELTS AND ENGINE</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="blog" id="blog">
+      <div class="heading">
+        <span>our customers </span>
+        <h1>reviews</h1>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pic-1.png" alt="" />
+          <h4>Ned Stark</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
+            rem. Itaque.
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/pic-2.png" alt="" />
+          <h4>John Doe</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
+            rem. Itaque.
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/pic-3.png" alt="" />
+          <h4>Tywin Lannister</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
+            rem. Itaque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <div class="banner">
+      <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>NEWSLETTER</span>
+        <h3>SUBSCRIBE for latest news</h3>
+        <form action="#">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="input"
+          />
+        </form>
+        <button href="#" class="btn subscribe" id="Subscribe">subscribe</button>
+      </div>
+    </div>
+
+    
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <a href="#" class="logo"> <i class="fas fa-car-side"></i>Ride Well </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            ad?
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>quick links</h3>
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#about" class="links">
+            <i class="fas fa-arrow-right"></i> about
+          </a>
+          <a href="#services" class="links">
+            <i class="fas fa-arrow-right"></i> services
+          </a>
+          <a href="#gallery" class="links">
+            <i class="fas fa-arrow-right"></i> gallery
+          </a>
+          <a href="#blogs" class="links">
+            <i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <h3>contact info</h3>
+          <p><i class="fas fa-map"></i> Ohio, USA</p>
+          <p><i class="fas fa-phone"></i> +123-456-7890</p>
+          <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+          <p><i class="fas fa-clock"></i> 9:00am - 5:00pm</p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              class="email"
+              id=""
+            />
+          </form>
+          <button  class="btn subscribe" id="Subscribe">Subscribe</button>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      created by <span>Jummy</span> | all rights reserved!
+    </div>
+
+   
+    <script src="/js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
+
+  </body>
+</html>
